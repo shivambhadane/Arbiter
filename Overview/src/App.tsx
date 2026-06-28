@@ -537,7 +537,7 @@ export default function App() {
         <div className="container header-container">
           <a href="#" className="logo-container" id="header-logo">
             <div className="logo-pulse"></div>
-            <span class="logo-text">Arbiter</span>
+            <span className="logo-text">Arbiter</span>
           </a>
           <nav>
             <a href="#features">Features</a>
@@ -657,8 +657,8 @@ export default function App() {
         <div className="container">
           <div className="section-header">
             <span className="section-tag">Interactive Architecture</span>
-            <h2 class="section-title">Microservice Layout & Event Flow</h2>
-            <p class="section-desc">Click any component box in the routing flow or database tiers to view its system role, tech stack, and container fail-safety strategy.</p>
+            <h2 className="section-title">Microservice Layout & Event Flow</h2>
+            <p className="section-desc">Click any component box in the routing flow or database tiers to view its system role, tech stack, and container fail-safety strategy.</p>
           </div>
 
           <div className="architecture-layout">
@@ -1231,7 +1231,7 @@ export default function App() {
             <div>
               <a href="#" className="logo-container">
                 <div className="logo-pulse"></div>
-                <span class="logo-text">Arbiter</span>
+                <span className="logo-text">Arbiter</span>
               </a>
               <p className="footer-desc">An enterprise CI/CD & sandboxed execution platform for untrusted code execution. Built using Spring Cloud Gateway, Kafka messaging, and Docker security jails.</p>
             </div>
