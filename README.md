@@ -40,7 +40,6 @@
 18. Risks, Assumptions, Open Questions
 19. Success Metrics
 20. Future Roadmap
-21. Appendix: Interview Framing Notes
 ---
  
 ## 1. Executive Summary
@@ -605,9 +604,4 @@ gantt
 6. Expand language matrix (C, Go, Rust).
 7. Slack/Teams notification integration.
 8. Sandbox upgrade path to gVisor or Firecracker for stronger isolation guarantees.
-## 21. Appendix: Interview Framing Notes
- 
-This PRD describes the **full target design**, not a claim that every diagram element is implemented. When discussing this project, be explicit about what's built (MVP, Section 13) versus designed-but-not-yet-built (Sections 7, 17, 20). Be ready to walk through, in your own words and without notes:
-- Why the execution tier is decoupled from the request-serving tier (Section 3, 7.1).
-- What happens when a worker pod dies mid-build (Section 7.5 state diagram — it retries, then fails explicitly, never silently).
-- The specific security trade-off of Docker vs. microVM isolation (Section 17) — naming the limitation yourself, before being asked, is a stronger signal than waiting for the interviewer to find it.
+
